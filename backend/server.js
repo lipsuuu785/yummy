@@ -6,7 +6,6 @@ const cors=require("cors")
 const path=require("path")
 
 const PORT=process.env.PORT || 3000
-const __dirname = path.resolve();
 connectDb()
 
 app.use(express.json())
