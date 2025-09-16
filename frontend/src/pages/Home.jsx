@@ -34,25 +34,6 @@ export default function Home() {
                     a little love story.” 💕
                     </h5>
 
-                    <div className="mt-6 relative inline-block text-left">
-      <button className="inline-flex justify-center w-full rounded-md border border-pink-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-pink-50 focus:outline-none">
-        By Category 🍴
-        <svg className="-mr-1 ml-2 h-5 w-5 text-pink-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 8l5 5 5-5" />
-        </svg>
-      </button>
-<div className="origin-top-left absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-        <div className="py-1">
-          <a href="#mains" className="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-100">Mains</a>
-          <a href="#soups" className="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-100">Soups</a>
-          <a href="#desserts" className="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-100">Desserts</a>
-          <a href="#sides" className="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-100">Sides</a>
-          <a href="#quick-easy" className="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-100">Quick & Easy</a>
-          <a href="#more" className="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-100">More Categories...</a>
-        </div>
-      </div>
-    </div>
-
                     <button onClick={addRecipe}>Share your recipe</button>
                 </div>
                 <div className='right'>
