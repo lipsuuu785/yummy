@@ -23,9 +23,17 @@ export default function Home() {
         <>
             <section className='home'>
                 <div className='left'>
-                    <h1>Delicious Cake For Everyone</h1>
-                    <h5>"Life is short, eat the cake first! 🍰❣"</h5>
-                    <h5>“Every cake we bake is a love story, told in layers of sweetness and frosted with care. 🍰✨ From soft sponges to dreamy creams, each bite is a gentle reminder that love is best savored slowly, with someone special by your side. Here, happiness isn’t just baked—it’s shared.” 💕</h5>
+                    <h1 className="text-4xl font-extrabold text-pink-600 drop-shadow-lg">
+                    Your Everyday Cooking Inspiration..💕
+                    </h1>
+
+                    <h5 className="mt-4 text-lg font-semibold text-rose-500 italic">
+                    💌 “Your everyday cooking inspiration begins here—where flavors meet feelings, 
+                    and recipes are seasoned with love. Because cooking isn’t just about food, 
+                    it’s about creating warm moments, sharing smiles, and turning every meal into 
+                    a little love story.” 💕
+                    </h5>
+
                     <button onClick={addRecipe}>Share your recipe</button>
                 </div>
                 <div className='right'>
