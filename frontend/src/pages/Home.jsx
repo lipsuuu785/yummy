@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import cake from '../assets/cake.jpg'
+import cake from '../assets/cake.png'
 import Navbar from '../components/Navbar'
 import RecipeItems from '../components/RecipeItems'
 import { useNavigate } from 'react-router-dom'
