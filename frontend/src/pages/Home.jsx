@@ -37,7 +37,10 @@ export default function Home() {
                     <button onClick={addRecipe}>Share your recipe</button>
                 </div>
                 <div className='right'>
-                    <img src={cake} width="320px" height="300px"></img>
+                    <img src={cake} width="320px" height="300px" style={{
+                    borderRadius: "50%",
+                    objectFit: "cover"
+                    }}></img> 
                 </div>
             </section>
             <div className='bg'>
