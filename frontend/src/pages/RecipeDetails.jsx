@@ -1,6 +1,5 @@
 import React from 'react'
 import profileImg from '../assets/profile.png'
-import cake from '../assets/cake.png'
 import { useLoaderData } from 'react-router-dom'
 
 export default function RecipeDetails() {
