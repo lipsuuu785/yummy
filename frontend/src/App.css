@@ -68,6 +68,7 @@ section{
   margin-top: 6rem;
   gap:10rem;
   position: relative;
+  border-radius: 50%;
 }
 
 .home .left h1{
