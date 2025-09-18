@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import foodRecipe from '../assets/foodRecipe.png'
+import cake from '../assets/cake.jpg'
 import Navbar from '../components/Navbar'
 import RecipeItems from '../components/RecipeItems'
 import { useNavigate } from 'react-router-dom'
@@ -37,7 +37,7 @@ export default function Home() {
                     <button onClick={addRecipe}>Share your recipe</button>
                 </div>
                 <div className='right'>
-                    <img src={foodRecipe} width="320px" height="300px"></img>
+                    <img src={cake} width="320px" height="300px"></img>
                 </div>
             </section>
             <div className='bg'>
